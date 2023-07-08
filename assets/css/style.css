@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cta-section {
+    background-color: #1C0D7F;
+    border-radius: 20px;
+    padding: 60px;
+    display: flex;
+    gap: 60px;
+}
+
+.action-button {
+    padding: 12px 32px;
+    background-color: #F9D65B;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0C0822;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+    color: white;
+}
+
+h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+}
+
+.secondary-color {
+    color: #F9D65B;
+}
+
+.cta-section .cta-left-side header h2 {
+    margin-bottom: 32px;
+}
+
+.cta-section .cta-left-side header {
+    margin-bottom: 38px;
+}
+
+.cta-section .cta-contact-container {
+    margin-top: 32px;
+}
+
+.cta-section .cta-contact-container .cta-contact-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+i {
+    color: white;
+}
+
+.cta-section .cta-contact-container h5 {
+    margin-bottom: 22px;
+}
+
+.cta-section .cta-contact-container .cta-contact-item {
+    margin-bottom: 18px;
+}
+
+.cta-section .cta-left-side-content {
+    margin-bottom: 46px;
+}
+
+.cta-section .cta-right-side {
+    border-radius: 15px;
+    background-image: url("/assets/media/work-from-home.jpg");
+    height: 480px;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+}
+
+.cta-section .cta-left-side {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .cta-section {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        min-width: 375px;
+    }
+
+    .cta-section .cta-left-side {
+        padding: 24px;
+    }
+
+    .cta-section .cta-left-side,
+    .cta-section .cta-right-side {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 130%;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 130%;
+    }
+
+    .cta-section .cta-left-side header h2 {
+        margin-bottom: 20px;
+    }
+
+    .cta-section .cta-left-side header {
+        margin-bottom: 20px;
+    }
+
+    .cta-section .cta-contact-container {
+        margin-top: 20px;
+    }
+
+    .action-button {
+        display: none;
+    }
+
+    .cta-section .cta-left-side-content {
+        margin-bottom: 0;
+    }
+}
